@@ -18,11 +18,11 @@ public class Main {
         int year = age;
         year = 21;
 
+        System.out.println(changed[3]);
         System.out.println(year);
         System.out.println(age);
         System.out.println("Hello, " + name);
         System.out.println(arr[0]);
-        System.out.println(arr);
 
     }
 }
