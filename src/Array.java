@@ -7,6 +7,7 @@ public class Array {
         String[] fruits = {"Mango", "Orange", "Apple"};
 
         Arrays.sort(fruits);
+        Arrays.fill(fruits, "Honore");
 
         for(String fruit : fruits){
             System.out.print(fruit + " ");
