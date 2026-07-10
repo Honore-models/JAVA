@@ -7,5 +7,8 @@ public class Class {
 
         System.out.println(student1.name);
         System.out.print(student2.name);
+        student2.study();
+        student1.study();
     }
 }
+

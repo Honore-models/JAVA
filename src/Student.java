@@ -10,4 +10,8 @@ public class Student {
         this.age = age;
     }
 
+    void study(){
+        System.out.println(this.name + " Is studying");
+    }
+
 }
