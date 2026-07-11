@@ -17,11 +17,13 @@ public class Class {
 //        for(Student student : students){
 //            student.study();
 //        }
+//
+//        Static friend1 = new Static("Honore");
+//        Static friend2 = new Static("Patrick");
+//        Static friend3 = new Static("Fabrice");
+//
+//        System.out.println(Static.numOfFriends);
 
-        Static friend1 = new Static("Honore");
-        Static friend2 = new Static("Patrick");
-        Static friend3 = new Static("Fabrice");
 
-        System.out.println(Static.numOfFriends);
     }
 }

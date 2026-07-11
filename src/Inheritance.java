@@ -8,6 +8,9 @@ public class Inheritance {
     }
 }
 
+// The object created from a subclass contains the parent and child parts, so
+// When a child object is created, the parent part of that same object must be initialized first.
+
 // When you create a subclass that inherits from the super class before calling the constructor of the subclass you must first
 // call that of the superclass.
 // NOTE: If the superclass has no-argument constructor this will work well even when you haven't explicitly called the constructor of
