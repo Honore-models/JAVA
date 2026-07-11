@@ -25,4 +25,3 @@ public class Class {
         System.out.println(Static.numOfFriends);
     }
 }
-

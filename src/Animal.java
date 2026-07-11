@@ -1,10 +1,12 @@
 public class Animal {
 
-    boolean isLive;
+    String name;
 
-    Animal(boolean isLive) {
+    Animal(String name) {
+        System.out.printf("I am %s\n", name);
+    }
 
-        this.isLive = isLive;
-        System.out.printf("It is alive: %b", isLive);
+    void speak(String speak) {
+        System.out.printf("I am an animal %s\n",speak);
     }
 }
