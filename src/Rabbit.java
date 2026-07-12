@@ -4,3 +4,4 @@ public class Rabbit implements Prey{
         System.out.println("I am a prey escaping a predator");
     }
 }
+
