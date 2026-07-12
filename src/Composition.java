@@ -7,7 +7,7 @@ public class Composition {
 //        Here this Engine object completely depend on car engine cz it cant be created before Car object
 
         Carz cars = new Carz("Ford", 2026, "V8");
-
+        System.out.println(cars.model + " " + cars.year + " " + cars.engine.name);
 
 
     }
