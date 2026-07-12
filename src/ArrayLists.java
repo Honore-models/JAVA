@@ -18,7 +18,9 @@ public class ArrayLists {
         fruits.add("Watermelon");
         fruits.add("Pear");
 
-        fruits.remove(3);
+//        fruits.remove(3);
+//        fruits.set(1, "Strawberry");
+        System.out.println(fruits.get(2));
 
         System.out.println(numbers);
         System.out.println(fruits);
