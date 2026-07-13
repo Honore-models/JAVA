@@ -41,6 +41,6 @@ class Product<T, U>{
     }
 
     public void showProduct(){
-        System.out.println(this.item + " "  + this.price);
+        System.out.println(this.item + " " + this.price);
     }
 }
