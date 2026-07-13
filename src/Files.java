@@ -38,7 +38,13 @@ public class Files {
 //      This is try-with-resources approach that closes the file automatically.
 
         try(FileWriter file2 = new FileWriter("with-resources.txt")){
-            file2.write("This is the second file with try-with-resources approach");
+            file2.write("""
+                    This is the second file with
+                    try-with-resources approach
+                    
+                    I am Honore a high school student at RCA
+                    """);
+
             System.out.println("File2 written successfully");
         }catch(IOException e){
             System.out.println("Could not open file.");

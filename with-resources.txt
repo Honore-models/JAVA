@@ -1,1 +1,4 @@
-This is the second file with try-with-resources approach
+This is the second file with
+try-with-resources approach
+
+I am Honore a high school student at RCA
