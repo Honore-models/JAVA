@@ -15,9 +15,17 @@ public class TimeOut {
 
         Timer timer = new Timer();
         TimerTask task = new TimerTask(){
+
+            int count = 5;
             @Override
             public void run() {
                 System.out.println("The task has been executed");
+                count--;
+
+                if(count == 0){
+                    System.out.println("THE TASK ENDED !");
+                    timer.cancel();
+                }
             }
         };
 
