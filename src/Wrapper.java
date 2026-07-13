@@ -17,6 +17,9 @@ public class Wrapper {
         Character wrapperCh = 'a';
         Double wrapperDouble = 15.5;
 
+        String wrappedInt = wrapperInt.toString();
+        System.out.println(wrappedInt);
+
         // Unboxing
 
         int primitiveInt = wrapperInt;
