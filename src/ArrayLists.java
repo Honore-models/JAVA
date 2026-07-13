@@ -49,6 +49,7 @@ public class ArrayLists {
         System.out.println("Your array is now:");
         System.out.println(cars);
 
+        scanner.close();
 
 
     }
