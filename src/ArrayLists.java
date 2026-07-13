@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Scanner;
 
 public class ArrayLists {
 
@@ -28,5 +29,27 @@ public class ArrayLists {
 
         System.out.println(numbers);
         System.out.println(fruits);
+
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("How many cars do you want?: ");
+        int num = scanner.nextInt();
+
+        scanner.nextLine();
+
+        ArrayList<String> cars = new ArrayList<>();
+
+        for(int i = 0; i < num; i++){
+            System.out.printf("Enter the name of a car %d: ", i+1);
+            cars.add(scanner.nextLine());
+        }
+
+        System.out.printf("You entered %d cars\n", num);
+        System.out.println("Your array is now:");
+        System.out.println(cars);
+
+
+
     }
 }
