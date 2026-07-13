@@ -5,10 +5,11 @@ public class Files {
 
     public static void main(String[] args){
 
-        try{
-            FileWriter file = new FileWriter("text.txt");
+        try(FileWriter file = new FileWriter("test.txt");){
+
             file.write("Hello world");
             System.out.println("File was written successfully");
+
         }catch(IOException e){
             System.out.println("Could not open file.");
         }
