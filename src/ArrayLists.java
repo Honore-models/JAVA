@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class ArrayLists {
 
@@ -21,6 +22,9 @@ public class ArrayLists {
 //        fruits.remove(3);
 //        fruits.set(1, "Strawberry");
         System.out.println(fruits.get(2));
+        System.out.println(fruits.size());
+
+        Collections.sort(fruits);
 
         System.out.println(numbers);
         System.out.println(fruits);
