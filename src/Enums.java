@@ -8,8 +8,14 @@ public class Enums {
 //        that variable can hold only strings , and enum datatype shows that that variable can hold only one value among those
 //        defined in the enum
 
+//        Enums are best in switch statements because they prevent the use of strings that may cause problems
+
         Status status = Status.ACTIVE;
         System.out.println(status);
 
+        switch (status) {
+            case ACTIVE -> System.out.println("It is active");
+            case GRADUATED -> System.out.println("It is graduated");
+        }
     }
 }
