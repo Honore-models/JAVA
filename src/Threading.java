@@ -11,6 +11,10 @@ public class Threading {
 //        Normally when you run a program in Java , there is only one single thread i.e. One flow of execution of the program
 //        from top to bottom of the program.
 
+//        💡There are two ways of creating a thread:
+//        1. Extending Thread class and Override run() method
+//        2. Implementing Runnable Interface and Override run() method and they you pass instance of runnable to Thread class
+
 //        You can extend the Thread class and create your own separate thread that will execute your separate codes you want
 //        to be executed in one program
 
