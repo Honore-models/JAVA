@@ -8,6 +8,8 @@ public class Enums {
 //        that variable can hold only strings , and enum datatype shows that that variable can hold only one value among those
 //        defined in the enum
 
+        Status status = Status.ACTIVE;
+        System.out.println(status);
 
     }
 }
